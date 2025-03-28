@@ -6,8 +6,8 @@ defineProps<{
 
 <template>
   <div class="logo" :class="size">
-    <img src="@/assets/logo.png" alt="魂技点读宝" />
-    <span class="logo-text">魂技点读宝</span>
+    <img src="@/assets/logo.png" alt="AI智绘伴读" />
+    <span class="logo-text">AI智绘伴读</span>
   </div>
 </template>
 

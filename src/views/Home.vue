@@ -162,7 +162,7 @@ const showDevTipMessage = () => {
     <footer class="footer">
       <div class="footer-content">
         <div class="copyright">
-          © 2025 魂技点读宝 保留所有权利
+          © 2025 AI智绘伴读 保留所有权利
         </div>
       </div>
     </footer>
@@ -178,10 +178,10 @@ const showDevTipMessage = () => {
 
 .hero {
   position: relative;
-  padding: 80px 0;
+  padding: 200px 0;
   overflow: hidden;
-  background: url(/src/assets/hero-animals.png?t=1739251843457);
-  background-position: center bottom;
+  background: url(/src/assets/banner.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -191,18 +191,28 @@ const showDevTipMessage = () => {
     padding: 0 20px;
     position: relative;
     z-index: 1;
-  }
 
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: var(--text-color);
-  }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: var(--text-color);
+      text-shadow: 
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    }
 
-  p {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 40px;
+    p {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 40px;
+      text-shadow: 
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    }
   }
 
   .hero-image {
@@ -227,7 +237,7 @@ const showDevTipMessage = () => {
   }
 
   .download-btn {
-    background: var(--primary-color);
+    background: #fa3636;
     color: white;
     border: none;
 
@@ -551,12 +561,22 @@ const showDevTipMessage = () => {
       font-size: 1.8rem;
       margin-bottom: 15px;
       padding: 0 20px;
+      text-shadow: 
+        -4px -4px 0 #fff,
+        4px -4px 0 #fff,
+        -4px 4px 0 #fff,
+        4px 4px 0 #fff;
     }
 
     p {
       font-size: 1rem;
       margin-bottom: 30px;
       padding: 0 20px;
+      text-shadow: 
+        -4px -4px 0 #fff,
+        4px -4px 0 #fff,
+        -4px 4px 0 #fff,
+        4px 4px 0 #fff;
     }
 
     .cta-buttons {

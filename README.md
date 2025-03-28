@@ -1,2 +1,2 @@
-# animal-sounds-portal-fe
-“魂技点读宝”官网
+# picture-book-portal-fe
+“AI智绘伴读”官网
